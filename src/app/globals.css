@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+@keyframes slant-shine {
+  0% {
+    transform: translateX(-100%) rotate(15deg);
+  }
+  100% {
+    transform: translateX(200%) rotate(15deg);
+  }
+}
+
+.shine-slant {
+  background: linear-gradient(120deg, transparent 0%, white 90%, transparent 10%);
+  transform: rotate(15deg);
+  width: 150%;
+  height: 100%;
+  animation: slant-shine 2s infinite;
+}
+
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
