@@ -1,4 +1,4 @@
-export default function ProjectBadge() {
+export default function Badge() {
 
     // fix:overflow - error
 
