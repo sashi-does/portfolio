@@ -12,7 +12,7 @@ export default function Dockbar() {
     const divider = "w-px h-6 bg-white/40 mx-1";
   
     return (
-      <div className="flex border border-white/20 rounded-full justify-center backdrop-blur-3xl sticky top-4">
+      <div className="flex border border-white/20 rounded-full justify-center z-30 backdrop-blur-md sticky top-4">
         <ul className="flex items-center">
           <li className={dockItem}>
             <Image src={HomeIcon} alt='home' />

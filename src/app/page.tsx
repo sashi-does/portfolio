@@ -1,10 +1,8 @@
-import Image from "next/image";
-import Dockbar from "../components/Dockbar";
-
-import HeroTitle from "../ui/HeroTitle";
 import HeroAbout from "../components/HeroAbout";
 import NewsLetter from "../components/NewsLetter";
 import Badge from "@/components/Badge";
+import HeroTitle from "@/components/ui/HeroTitle";
+import Dockbar from "@/components/Dockbar";
 
 export default function Home() {
   return (
