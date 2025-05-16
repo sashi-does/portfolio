@@ -1,7 +1,8 @@
+import AboutSidebar from "@/components/AboutSidebar";
+
 export default function About() {
 
-    // navigate to about route
-    return <h1>
-        About
-    </h1>
+    return <div className="h-[200vh] p-8">
+        <AboutSidebar />
+    </div>
 }
