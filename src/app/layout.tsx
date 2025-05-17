@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import { Geist, Geist_Mono, Outfit } from "next/font/google";
+
 import "./globals.css";
 import Dockbar from "@/components/Dockbar";
 
@@ -7,6 +9,13 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+
+
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['100', '400', '700', '900'], // Choose the weights you need
+  variable: '--font-outfit', // Optional: for CSS variables
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
