@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
+.sphere-background {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.sphere-gradient {
+  width: 100vmax;
+  height: 100vmax;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #6366f1, #3b82f6, #0ea5e9, transparent 30%);
+  filter: blur(300px);
+  opacity: 0.6;
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+
+
 @keyframes slant-shine {
   0% {
     transform: translateX(-100%) rotate(15deg);
@@ -8,6 +41,7 @@
     transform: translateX(200%) rotate(15deg);
   }
 }
+
 
 .shine-slant {
   background: linear-gradient(120deg, transparent 0%, white 90%, transparent 10%);
