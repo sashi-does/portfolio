@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Profile() {
   return (
-    <div className="flex flex-col justify-center sticky">
+    <div className="flex flex-col justify-center sticky top-[50px]">
       <div className="rounded-full overflow-hidden w-30 h-30">
         <Image src="/me.jpg" alt="profile" width={130} height={130} />
       </div>
