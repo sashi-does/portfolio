@@ -8,7 +8,7 @@ const sidebarItems = [
   export default function AboutSidebar() {
     return (
       <div className="left-0 top-[40vh] sticky px-6 text-white font-medium">
-        <ul className="space-y-5">
+        <ul className="space-y-5 w-fit">
           {sidebarItems.map((item, index) => (
             <li
               key={index}
