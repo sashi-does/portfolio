@@ -20,7 +20,7 @@ export default function About() {
         <div className="ml-8 h-full">
           <ScheduleCall />
           <Name />
-          <Role />
+          <Role variant="about">FullStack | DevOps | Web3 | Rust | BlockChain Developer</Role>
           <SocialHandles />
 
           <p className="w-[50vw] mt-4">

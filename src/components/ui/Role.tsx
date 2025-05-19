@@ -1,3 +1,14 @@
-export default function Role() {
-    return <p className="mt-[5px]">FullStack | DevOps | Web3 | Rust | BlockChain Developer</p>
+type RoleType = {
+    children: string,
+    variant: "work" | "about"
+}
+
+
+const styleVariants = {
+    "work": "text-[18px] font-md",
+    "about": "text-md"
+}
+
+export default function Role({ children, variant }: RoleType) {
+    return <p className={`${styleVariants[variant]} mt-[5px] text-gray-400`}>{children}</p>
 }
