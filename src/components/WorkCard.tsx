@@ -5,6 +5,7 @@ type CardProps = {
   image: string;
   link: string;
   description: string;
+  github: string;
 };
 
 export default function WorkCard({
