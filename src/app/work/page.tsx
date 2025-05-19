@@ -1,35 +1,44 @@
 import Role from "@/components/ui/Role";
+import WorkCard from "@/components/WorkCard";
+
+const workProjects = [
+  {
+    title: "TubeIO – Focused Video Feed",
+    image: "/images/tubeio-thumbnail.png",
+    description:
+      "A distraction-free platform to watch niche-based YouTube content. Built with MERN stack, featuring personalized feeds and clean UX.",
+    link: "https://tubeio.example.com",
+  },
+  {
+    title: "OpenSkill – Social Media Marketing Agency",
+    image: "/images/aarzen-thumbnail.png",
+    description:
+      "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
+    link: "https://aarzen.example.com",
+  },
+  {
+    title: "Aarzen Acquisition – Lead Gen Agency",
+    image: "/images/aarzen-thumbnail.png",
+    description:
+      "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
+    link: "https://aarzen.example.com",
+  },
+];
 
 export default function WorkSection() {
   return (
-    <div className="h-screen max-w-6xl mx-auto pt-10 flex flex-col items-center">
-      <div className="text-center w-[50vw]">
+    <div className="max-w-6xl mx-auto pt-15 flex flex-col items-center px-4">
+      <div className="text-center w-full sm:w-[50vw] mb-12">
         <h1 className="font-bold text-5xl">My Works</h1>
-        <Role variant="work">Transforming ideas into elegant digital solutions that make a difference.</Role>
+        <Role variant="work">
+          Transforming ideas into elegant digital solutions that make a difference.
+        </Role>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        <div className="bg-gray-900 p-6 rounded-2xl shadow hover:shadow-lg transition">
-          <img
-            src="/images/tubeio-thumbnail.png"
-            alt="TubeIO"
-            className="rounded-xl mb-4"
-          />
-          <h3 className="text-xl font-semibold">TubeIO – Focused Video Feed</h3>
-          <p className="text-gray-400 text-sm mt-2">
-            A distraction-free platform to watch niche-based YouTube content.
-            Built with MERN stack, featuring personalized feeds and clean UX.
-          </p>
-          <a
-            href="https://tubeio.example.com"
-            target="_blank"
-            className="text-blue-500 mt-4 inline-block"
-          >
-            Visit Site →
-          </a>
-        </div>
-
-        {/* Repeat Project Cards Here */}
+      <div className="flex m-5 gap-5 justify-center flex-wrap">
+        {workProjects.map((project, index) => (
+          <WorkCard key={index} {...project} />
+        ))}
       </div>
     </div>
   );
