@@ -8,20 +8,23 @@ const workProjects = [
     description:
       "A distraction-free platform to watch niche-based YouTube content. Built with MERN stack, featuring personalized feeds and clean UX.",
     link: "https://tubeio.vercel.app/",
+    github: "https://github.com/sashi-does/tubeio"
   },
   {
-    title: "OpenSkill – Social Media Marketing Agency",
+    title: "OpenSkill – SMMA",
     image: "openskill.png",
     description:
       "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
     link: "https://openskill.in/",
+    github: "https://github.com/sashi-does/OpenSkill"
   },
   {
-    title: "Aarzen Acquisition – Lead Gen Agency",
+    title: "Aarzen Acquisition – Agency",
     image: "aarzen.png",
     description:
       "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
     link: "https://aarzen-aquisition.vercel.app/",
+    github: "https://github.com/sashi-does/aarzen-aquisition"
   },
 ];
 
