@@ -4,24 +4,24 @@ import WorkCard from "@/components/WorkCard";
 const workProjects = [
   {
     title: "TubeIO – Focused Video Feed",
-    image: "/images/tubeio-thumbnail.png",
+    image: "tubeio.png",
     description:
       "A distraction-free platform to watch niche-based YouTube content. Built with MERN stack, featuring personalized feeds and clean UX.",
-    link: "https://tubeio.example.com",
+    link: "https://tubeio.vercel.app/",
   },
   {
     title: "OpenSkill – Social Media Marketing Agency",
-    image: "/images/aarzen-thumbnail.png",
+    image: "openskill.png",
     description:
       "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
-    link: "https://aarzen.example.com",
+    link: "https://openskill.in/",
   },
   {
     title: "Aarzen Acquisition – Lead Gen Agency",
-    image: "/images/aarzen-thumbnail.png",
+    image: "aarzen.png",
     description:
       "Landing page for a lead generation agency helping coaches and consultants book qualified appointments. Clean UI with strong CTA.",
-    link: "https://aarzen.example.com",
+    link: "https://aarzen-aquisition.vercel.app/",
   },
 ];
 
