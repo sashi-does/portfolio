@@ -69,7 +69,7 @@ export default function SocialHandles() {
           key={handle.name}
           href={handle.link}
           target="_blank"
-          className="flex items-center gap-2 px-4 py-1 rounded-full bg-neutral-900 text-white border border-neutral-700 hover:border-white transition"
+          className="flex items-center gap-2 px-4 py-1 rounded-full hover:bg-[#3F3F3F] bg-neutral-900 text-white border border-neutral-700 hover:border-gray-600 transition"
         >
           {handle.icon}
           <span className="text-[12px] font-bold">{handle.name}</span>

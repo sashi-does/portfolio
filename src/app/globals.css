@@ -28,6 +28,10 @@ body {
   animation: pulse 8s ease-in-out infinite;
 }
 
+.white-icon {
+  filter: brightness(0) invert(1);
+}
+
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);

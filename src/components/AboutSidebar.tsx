@@ -1,8 +1,7 @@
 const sidebarItems = [
     "Introduction",
-    "Work Experience",
+    "Skills",
     "Studies",
-    "Technical skills"
   ];
   
   export default function AboutSidebar() {

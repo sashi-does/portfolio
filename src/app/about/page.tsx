@@ -1,6 +1,7 @@
 import AboutSidebar from "@/components/AboutSidebar";
 import Profile from "@/components/Profile";
-import Name from "@/components/ui/AboutName";
+import SkillSection from "@/components/SkillSection";
+import Name from "@/components/ui/AboutHeading";
 import Role from "@/components/ui/Role";
 import ScheduleCall from "@/components/ui/SchedueCall";
 import SocialHandles from "@/components/ui/SocialHandles";
@@ -19,7 +20,7 @@ export default function About() {
 
         <div className="ml-8 h-full">
           <ScheduleCall />
-          <Name />
+          <Name>Sashi</Name>
           <Role variant="about">FullStack | DevOps | Web3 | Rust | BlockChain Developer</Role>
           <SocialHandles />
 
@@ -32,43 +33,8 @@ export default function About() {
             hands-on experience, I strive to refine my skills and create
             impactful software that meets the evolving needs of the industry.
           </p>
-          <p className="w-[50vw] mt-4">
-            I am currently pursuing a B.Tech in Computer Science and
-            Engineering. My expertise lies in full-stack development, with a
-            specialization in SaaS (Software as a Service) technologies. I am
-            dedicated to building scalable applications that provide practical
-            solutions to real-world challenges. Through continuous learning and
-            hands-on experience, I strive to refine my skills and create
-            impactful software that meets the evolving needs of the industry.
-          </p>
-          <p className="w-[50vw] mt-4">
-            I am currently pursuing a B.Tech in Computer Science and
-            Engineering. My expertise lies in full-stack development, with a
-            specialization in SaaS (Software as a Service) technologies. I am
-            dedicated to building scalable applications that provide practical
-            solutions to real-world challenges. Through continuous learning and
-            hands-on experience, I strive to refine my skills and create
-            impactful software that meets the evolving needs of the industry.
-          </p>
-          v
-           <p className="w-[50vw] mt-4">
-            I am currently pursuing a B.Tech in Computer Science and
-            Engineering. My expertise lies in full-stack development, with a
-            specialization in SaaS (Software as a Service) technologies. I am
-            dedicated to building scalable applications that provide practical
-            solutions to real-world challenges. Through continuous learning and
-            hands-on experience, I strive to refine my skills and create
-            impactful software that meets the evolving needs of the industry.
-          </p>
-          v <p className="w-[50vw] mt-4">
-            I am currently pursuing a B.Tech in Computer Science and
-            Engineering. My expertise lies in full-stack development, with a
-            specialization in SaaS (Software as a Service) technologies. I am
-            dedicated to building scalable applications that provide practical
-            solutions to real-world challenges. Through continuous learning and
-            hands-on experience, I strive to refine my skills and create
-            impactful software that meets the evolving needs of the industry.
-          </p>
+          
+          <SkillSection />
         </div>
       </div>
 
