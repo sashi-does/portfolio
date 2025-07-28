@@ -5,27 +5,8 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-
-.sphere-background {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: -1;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.sphere-gradient {
-  width: 100vmax;
-  height: 100vmax;
-  border-radius: 50%;
-  background: radial-gradient(circle at center, #6366f1, #3b82f6, #0ea5e9, transparent 30%);
-  filter: blur(300px);
-  opacity: 0.6;
-  animation: pulse 8s ease-in-out infinite;
+.main {
+  background: black;
 }
 
 .white-icon {

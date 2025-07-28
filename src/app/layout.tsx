@@ -34,13 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="sphere-background">
-          <div className="sphere-gradient"></div>
-        </div>
-        <div className="flex z-30 sticky top-5 items-center justify-center">
-
-        </div>
+      <body className={`${geistSans.variable} main ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>
