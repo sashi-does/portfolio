@@ -1,6 +1,7 @@
 import { ExternalLink, Github } from "lucide-react";
 import { projects } from "../lib/data";
 import Heading from "../ui/heading";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -14,7 +15,7 @@ export default function Projects() {
             className="bg-[#111111] border border-neutral-800 rounded-xl p-5 shadow-sm hover:shadow-md transition-shadow duration-300"
           >
             {project.image && (
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover rounded-md mb-4"

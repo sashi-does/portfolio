@@ -2,12 +2,13 @@ import Name from "../ui/name";
 import '../lib/fontawesome';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
 
 export default function Profile() {
   return (
     <section className="w-full max-w-4xl mx-auto px-4 py-12 text-white">
       <div className="flex flex-col items-center text-center">
-        <img
+        <Image
           src="/profile.png"
           alt="Profile"
           className="w-24 h-24 rounded-full border border-neutral-700 mb-4"
