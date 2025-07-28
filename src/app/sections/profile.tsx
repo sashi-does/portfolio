@@ -10,6 +10,8 @@ export default function Profile() {
       <div className="flex flex-col items-center text-center">
         <Image
           src="/profile.png"
+          width={96}
+          height={96}
           alt="Profile"
           className="w-24 h-24 rounded-full border border-neutral-700 mb-4"
         />
