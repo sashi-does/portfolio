@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
 
 import "./globals.css";
-import Dockbar from "@/components/Dockbar";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,7 +38,9 @@ export default function RootLayout({
         <div className="sphere-background">
           <div className="sphere-gradient"></div>
         </div>
-        <Dockbar />
+        <div className="flex z-30 sticky top-5 items-center justify-center">
+
+        </div>
         {children}
       </body>
     </html>
