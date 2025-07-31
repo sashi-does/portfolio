@@ -13,6 +13,6 @@ export default function Home() {
     <Heatmap />
     <Projects />
     <Footer />
-    { /* Add total visits, contact , mail icon, skills section,  */ }
+    { /* add these ....-> total visits, contact , mail icon, skills section,  */ }
   </div>
 }
