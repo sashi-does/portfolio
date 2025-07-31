@@ -13,12 +13,12 @@ export const projects = [
       title: 'Tubeio',
       date: 'Jun 2025 – Jul 2025',
       description:
-        'A fast, modern YouTube UI clone using Next.js App Router. Responsive, dark-themed, and performance optimized.',
-      tech: ['React.js', 'JavaScript', 'MongoDB', 'TailwindCSS', 'YouTube API'],
+        'A niche-focused video platform for intentional learning. Features multi-step onboarding, personalized feeds, and a clean, dark-themed UI.',
+      tech: ['React.js', 'JavaScript', 'MongoDB', 'TailwindCSS', 'Postgres', 'Youtube API'],
       image: '/tubeio.png',
       demoUrl: 'https://tubeio.vercel.app',
       githubUrl: 'https://github.com/sashi-does/tubeio',
-    },
+    },    
     {
       title: 'OpenSkill',
       date: 'May 2025 – Jun 2025',
