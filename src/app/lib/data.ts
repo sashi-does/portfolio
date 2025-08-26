@@ -18,7 +18,17 @@ export const projects = [
       image: '/tubeio.png',
       demoUrl: 'https://tubeio.vercel.app',
       githubUrl: 'https://github.com/sashi-does/tubeio',
-    },    
+    }, 
+    {
+      title: 'Amrutam Ayurvedic',
+      date: 'Contract',
+      description:
+      'A full-stack Ayurvedic consultation platform where users can book appointments with doctors, featuring secure slot-locking to prevent double bookings',
+      tech: ['Next.js', 'TailwindCSS', 'Redis', 'Postgres', 'Express', 'Resend', 'JWT'],
+      image: '/amrutam.png',
+      demoUrl: 'https://amrutam-ayurveda-consult.vercel.app', 
+      githubUrl: 'https://github.com/sashi-does/amrutam-ayurveda-consult',
+    },   
     {
       title: 'OpenSkill',
       date: 'May 2025 – Jun 2025',
@@ -29,15 +39,6 @@ export const projects = [
       demoUrl: 'https://openskill.in',
       githubUrl: 'https://github.com/sashi-does/openskill',
     },
-    {
-      title: 'Amrutam Ayurvedic',
-      date: 'Contract',
-      description:
-      'A full-stack Ayurvedic consultation platform where users can book appointments with doctors, featuring secure slot-locking to prevent double bookings',
-      tech: ['Next.js', 'TailwindCSS', 'Redis', 'Postgres', 'Express', 'Resend', 'JWT'],
-      image: '/amrutam.png',
-      demoUrl: 'https://amrutam-ayurveda-consult.vercel.app', 
-      githubUrl: 'https://github.com/sashi-does/amrutam-ayurveda-consult',
-    }
+    
   ];
   
